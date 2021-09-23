@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrapのサンプル集</title>
+  <meta name="description" content="Bootstrapの提供する機能より、よく使われるものをピックアップ">
+  <meta name="keywords" content="Bootstrap,sample">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <style>
+  body {
+    padding-top: 70px;
+  }
+
+  .heading__01 {
+    border-top: 1px solid #ccc;
+    background-color: #f4f4f4;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 30px;
+  }
+
+  .grid p {
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="heading__01">見出し</h3>
+        <h1>見出し1<small>サブ見出し1</small></h1>
+        <h2>見出し2<small>サブ見出し2</small></h2>
+        <h3>見出し3<small>サブ見出し3</small></h3>
+        <h4>見出し4<small>サブ見出し4</small></h4>
+        <h5>見出し5<small>サブ見出し5</small></h5>
+        <h6>見出し6<small>サブ見出し6</small></h6>
+        <h3 class="heading__01">テキストの左右中央寄せ</h3>
+        <p class="text-left">左寄せのテキスト</p>
+        <p class="text-center">中央寄せのテキスト</p>
+        <p class="text-right">右寄せのテキスト</p>
+        <h3 class="heading__01">リスト</h3>
+        <ul>
+          <li>通常のリスト</li>
+          <li>通常のリスト</li>
+          <li>通常のリスト</li>
+        </ul>
+        <ol>
+          <li>数字のリスト</li>
+          <li>数字のリスト</li>
+          <li>数字のリスト</li>
+        </ol>
+        <ul class="list-unstyled">
+          <li>先頭に何もつかないリスト</li>
+          <li>先頭に何もつかないリスト</li>
+          <li>先頭に何もつかないリスト</li>
+        </ul>
+        <ul class="list-inline">
+          <li>横並びのリスト</li>
+          <li>横並びのリスト</li>
+          <li>横並びのリスト</li>
+        </ul>
+        <h3 class="heading__01">通常ボタン</h3>
+        <a class="btn btn-default" href="#">Link</a>
+        <h3 class="heading__01">色付きボタン</h3>
+        <a class="btn btn-primary" href="#">Link</a>
+        <a class="btn btn-success" href="#">Link</a>
+        <a class="btn btn-info" href="#">Link</a>
+        <a class="btn btn-warning" href="#">Link</a>
+        <a class="btn btn-danger" href="#">Link</a>
+        <h3 class="heading__01">ボタンの大きさ</h3>
+        <a class="btn btn-primary btn-xs" href="#">極小サイズのボタン</a>
+        <a class="btn btn-primary btn-sm" href="#">小サイズのボタン</a>
+        <a class="btn btn-primary" href="#">通常のボタン</a>
+        <a class="btn btn-primary btn-lg" href="#">大サイズのボタン</a>
+        <h3 class="heading__01">ブロックボタン</h3>
+        <a class="btn btn-primary btn-block" href="#">Link</a>
+        <h3 class="heading__01">複合要素のボタン</h3>
+        <a class="btn btn-success btn-lg btn-block" href="#">複合要素のボタン</a>
+        <h3 class="heading__01">グリッド</h3>
+        <div class="grid">
+          <div class="row">
+            <div class="col-sm-8">
+              <p>.col-sm-8</p>
+            </div>
+            <div class="col-sm-4">
+              <p>.col-sm-4</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <p>col-md-6</p>
+            </div>
+            <div class="col-md-6">
+              <p>col-md-6</p>
+            </div>
+            <div class="col-md-3">
+              <p>col-md-3</p>
+            </div>
+            <div class="col-md-3">
+              <p>col-md-3</p>
+            </div>
+            <div class="col-md-3">
+              <p>col-md-3</p>
+            </div>
+            <div class="col-md-3">
+              <p>col-md-3</p>
+            </div>
+            <div class="col-md-4">
+              <p>col-md-4</p>
+            </div>
+            <div class="col-md-4">
+              <p>col-md-4</p>
+            </div>
+            <div class="col-md-4">
+              <p>col-md-4</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6 col-md-9">
+              <p>col-xs-6
+                <br>col-md-9</p>
+            </div>
+            <div class="col-xs-6 col-md-3">
+              <p>col-xs-6
+                <br>col-md-3</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-4">
+                  <p>col-md-4</p>
+                </div>
+                <div class="col-md-4">
+                  <p>col-md-4</p>
+                </div>
+                <div class="col-md-4">
+                  <p>col-md-4</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <p>col-md-3</p>
+            </div>
+          </div>
+        </div>
+        <h3 class="heading__01">Navbar</h3>
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Brand</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Link</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Link</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container-fluid -->
+        </nav>
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Brand</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Link</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container-fluid -->
+        </nav>
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-3" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Brand</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-3">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Link</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Link</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container-fluid -->
+        </nav>
+        <h3 class="heading__01">カルーセル（スライダー）</h3>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="http://placehold.it/1200x500/000000/f6f6f6" alt="...">
+              <div class="carousel-caption">
+                画像の説明1
+              </div>
+            </div>
+            <div class="item">
+              <img src="http://placehold.it/1200x500/cccccc/000000" alt="...">
+              <div class="carousel-caption">
+                画像の説明2
+              </div>
+            </div>
+            <div class="item">
+              <img src="https://picsum.photos/1200/500" alt="...">
+              <div class="carousel-caption">
+                画像の説明3
+              </div>
+            </div>
+          </div>
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+
+</html>

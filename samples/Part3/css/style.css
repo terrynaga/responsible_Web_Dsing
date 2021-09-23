@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+/* ==================================
+全体に働きかける '※'
+================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+/* ==================================
+背景画像を指定する
+================================== */
+
+body {
+  margin: 0;
+  background-image: url(../img/bg.png);
+}
+
+/* ==================================
+タグ要素に直接指定する
+================================== */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+h1 {
+  font-size: 2.6em;
+  margin-top: 0;
+  padding: 80px 20px;
+  color: #fff;
+  background: #2abdc9;
+}
+p {
+  margin-bottom: 10px;
+}
+a {
+  color: #2abdc9;
+}
+
+/* ==================================
+classとID
+================================== */
+
+.primary #box {
+  padding: 100px;
+  background-color: #2abdc9;
+}
+
+.primary .box {
+  background-color: #ff0004;/*idで設定されているので無効化される*/
+}
+
+/* ==================================
+classの優先順位
+================================== */
+
+.primary .boxB {
+  padding: 100px;
+  background-color: red;
+}
+.primary .boxB {
+  background-color: yellow;
+}
+.primary .boxB {
+  background-color: lightblue;/*下に記述しているコードが優先になる*/
+}
+.primary div.boxC {
+  background-color: yellow;
+}
+.primary .boxC {
+  padding: 100px;
+  background-color: red;
+}
+.primary .boxD {
+  padding: 100px;
+  background-color: blue !important;/*!importantが付くと再優先になる*/
+}
+.primary .boxD {
+  background-color: red;
+}
+
+/* ==================================
+メディアクエリ
+================================== */
+
+@media (min-width: 600px) {
+  /*ウィンドウの幅が600px以上の設定*/
+  .primary {
+    float: left;
+    width: 70%;
+  }
+  .secondary {
+    float: right;
+    width: 25%;
+  }
+}
+@media (max-width: 599px) {
+  /*ウィンドウの幅が599px以下の設定*/
+  .primary {
+    margin-bottom: 50px;
+  }
+}
+
+/* ==================================
+clearfix
+================================== */
+
+.container {
+  overflow: hidden;
+  max-width: 1000px;
+  margin: 0 auto 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px #ddd;
+}
+
+/* ==================================
+色、文字サイズ
+================================== */
+
+.primary h2 {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px dashed #000;
+  border-left: 8px solid #2abdc9;
+}
+.secondary h2 {
+  font-size: 1em;
+  margin: 0;
+  padding: 10px;
+  color: #2abdc9;
+  border: 4px solid #2abdc9;
+}
+.secondary h3 {
+  font-size: 1em;
+  margin: 0;
+  padding: 0 0 10px 0;
+  color: #2abdc9;
+  border-bottom: 1px solid #ccc;
+}
