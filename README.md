@@ -1,1 +1,1 @@
-# responsible_Web_Dsing
+# レスポンシブWebデザインのサンプル
